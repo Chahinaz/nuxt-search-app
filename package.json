@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-search-app",
+  "version": "1.0.0",
+  "description": "iTunes search app, with Nuxt, Vue, Vuex and Vuetify",
+  "author": "Chahinaz <chahinaz@dindane.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "eslint-plugin-standard": "^3.1.0",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-vue": "^4.0.0",
+    "prettier": "1.14.0",
+    "vuetify": "^1.1.9"
+  }
+}
